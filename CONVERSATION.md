@@ -39,3 +39,38 @@ print("Click-through rate:", ctr)
 ```
 
 What is the first argument of the `print()` function?
+
+---
+## 2026-10-29 09:36, in .
+
+**Me:** give an example for printing 5 times in python
+
+**Tutor:**
+
+Printing a message multiple times is done with a loop.
+
+```python
+for _ in range(5):
+    print("Hello")
+    # TODO: Change the message to your own text
+```
+
+What is the argument of `range` that controls how many times the loop runs?
+
+---
+## 2026-10-29 09:54, in .
+
+**Me:** How do you get user input in python
+
+**Tutor:**
+
+Getting user input is done with the built-in function `input()`.
+
+Pattern:
+```python
+# TODO: ask the user for their name
+name = input("Enter your name: ")
+print("Hello", name)
+```
+
+What is the first argument of the `input()` function?
