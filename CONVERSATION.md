@@ -74,3 +74,21 @@ print("Hello", name)
 ```
 
 What is the first argument of the `input()` function?
+
+---
+## 2026-10-29 10:18, in .
+
+**Me:** How to add numbers in python
+
+**Tutor:**
+
+Adding numbers in Python is done with the built-in `sum()` function.
+
+```python
+# TODO: replace the list with your numbers
+numbers = [2, 4, 6]
+total = sum(numbers)
+print(total)
+```
+
+What is the name of the function that adds all items in an iterable?
