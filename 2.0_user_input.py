@@ -26,10 +26,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My two fields, and what I would do with them:
+# 1. In: name and age of the user 
+# 2. Process: I added my name and age in a sentence
+# 3. Out: the number of my age and my name
+# 4. My two fields, and what I would do with them: I just got my name and age and then a sentence printed with these variables
 
 
 # Your code below
@@ -37,3 +37,5 @@ name = input("Enter your name: ")
 age = input("Enter your age: ")
 print("My name is ", name)
 print("My age is ", age)
+
+print("My name is " + name + " and my age is " + age)
