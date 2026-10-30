@@ -25,7 +25,7 @@ DELIVERABLE
 # 1. In:my name as a string 
 # 2. Process: printing my name
 # 3. Out: printing my name 5 times
-# 4. My message, and why: just printed my name 5 times
+# 4. My message, and why: I chose to print my name 5 times
 
 
 # Your code below
