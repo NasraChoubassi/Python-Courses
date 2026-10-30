@@ -24,10 +24,27 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My four transformations, and when each is useful:
+# 1. In: A sentence typed by the user
+# 2. Process: The program will take the sentence and apply four different transformations to it.
+# 3. Out: Four new versions of the same sentence tranformed in different ways
+# 4. My four transformations, and when each is useful: 
+#upper(): to write a client's name in capitals on an official bank document
+#lower(): to compare two emails without caring about capital letters
+#strip(): to remove spaces a client typed by mistake in a form
+#title(): to display a name or an address nicely, like "John Smith" or "123 Main Street"
 
 
 # Your code below
+sentence = input("Enter a sentence: ")
+print("Original sentence:", sentence)
+print("Uppercase:", sentence.upper(), ". This transformation shows the sentence in capital letters.")
+print("Lowercase:", sentence.lower(), ". This transformation shows the sentence in lowercase.")
+print("Stripped:", sentence.strip(), ". This transformation removes spaces from the beginning and end of the sentence.")
+print("Title case:", sentence.title(), ". This transformation puts a capital letter at the start of each word.")
+
+#CHECK IT YOURSELF
+# I ran the program with the sentence "  Hello World ". The results were:
+# Uppercase: "  HELLO WORLD  ". This is what I expected.
+# Lowercase: "  hello world  ". This is what I expected.
+# Stripped: "Hello World". This is what I expected.
+# Title case: "  Hello World  ". This is what I expected.
