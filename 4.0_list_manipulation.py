@@ -26,34 +26,27 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What my list is about, and what I computed from it:
-
+# 1. In: a list of 8 monthly returns of an investment fund (in %)
+# 2. Process: the program displays the list, picks one return, sorts the
+# returns and computes the average monthly return
+# 3. Out: the whole list, one return, the sorted list and the average return
+# 4. What my list is about, and what I computed from it: My list is the return of a fund
+# each month (8 months). I computed the average monthly return, because it shows if the fund
+#makes money on average, even if some months are negative. An investor can use it to 
+# compare this fund with another one.
 
 # Your code below
-number_1 = 4
-number_2 = 5
-number_3 = 6
-number_4 = 7
-number_5 = 8
-number_6 = 9
+returns = [2.1, -1.5, 3.4, 0.8, -2.3, 1.9, 4.0, -0.6]
 
-print(number_1)
-print(number_2)
-print(number_3)
-print(number_4)
-print(number_5)
-print(number_6)
+print("All monthly returns (%) are :", returns)
+print("Return of the third month is:", returns[2])
 
-list=[4, 5, 6, 7, 8, 9, 10, 11, 2, 1]
+sorted_returns = sorted(returns)
+print("Sorted returns:", sorted_returns)
 
-print(list)
-print(list[3])
+average_return = sum(returns) / len(returns)
+print("Average monthly return (%):", round(average_return, 2))
 
-sorted_list = list.sort()
-print("Sorted list:", sorted_list)
-
-list.pop()
-print("List after removing last item:", list)
+#CHECK IT YOURSELF
+# By hand, with the first three returns: (2.1 + (-1.5) + 3.4) / 3 = 1.33
+# The program agrees, it gives for these three: 1.33
