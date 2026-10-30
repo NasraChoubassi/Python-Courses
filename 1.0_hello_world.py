@@ -22,16 +22,21 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:my name as a string 
-# 2. Process: printing my name
-# 3. Out: printing my name 5 times
-# 4. My message, and why: I chose to print my name 5 times
+# 1. In: a message (my name) and the number of times to print it (5)
+# 2. Process: the program prints the same message 5 times, with each line numbered
+# 3. Out: five lines of the same message, each with a number in front of it
+# 4. My message, and why: I chose to print my name 5 times, it's the simplest message I could think of
+#  and it is a good way to test that the program works.
 
 
 # Your code below
-print("Nasra")
-print("1. Nasra")
-print("2. Nasra")
-print("3. Nasra")
-print("4. Nasra")
-print("5. Nasra")
+message = "Nasra"
+repeat = 5
+
+for i in range(1, repeat + 1):
+    print(str(i) + ". " + message)
+
+#CHECK IT YOURSELF
+# I ran the program and counted the lines. There were five lines, as expected.
+# Then I changed the number to 3 by modifying the `repeat` variable and ran it again. 
+# There were three lines, as expected.
