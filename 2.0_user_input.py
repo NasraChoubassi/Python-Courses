@@ -26,16 +26,26 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In: name and age of the user 
-# 2. Process: I added my name and age in a sentence
-# 3. Out: the number of my age and my name
-# 4. My two fields, and what I would do with them: I just got my name and age and then a sentence printed with these variables
-
+# 1. In: for this example, the client's name and the amount they need to borrow
+# 2. Process: the program will take the name and the amount and print a sentence with 
+# these two pieces of information
+# 3. Out: a sentence with the client's name and the amount they need to borrow
+# 4. My two fields, and what I would do with them: In a bank loan application, I would 
+# ask for the client's name and the amount they need to borrow. I show a confirmation 
+# message so they can check their request before it is sent to an advisor.
 
 # Your code below
 name = input("Enter your name: ")
-age = input("Enter your age: ")
-print("My name is ", name)
-print("My age is ", age)
+amount = input("Enter the amount you need to borrow: ")
+print("Client's name is ", name)
+print("Amount to borrow is ", amount)
 
-print("My name is " + name + " and my age is " + age)
+
+print("Thank you " + name + ", your loan of $" + amount + " has been submitted.")
+
+#CHECK IT YOURSELF
+# Empty line: there is no error, the sentence is printed with an empty space where the 
+# name and number should be.
+# A space: no error also, it looks empty but there is an extra space in the sentence.
+# Text instead of a number: no error, it prints "j" for example as the loan amount, because input()
+#always gives text
