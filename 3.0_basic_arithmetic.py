@@ -24,10 +24,11 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What happens when the second number is zero, and why:
+# 1. In: two numbers entered by the user
+# 2. Process: the program performs four arithmetic operations (adds, subtracts, multiplies 
+# and divides) on the two numbers
+# 3. Out: the results of the four arithmetic operations
+# 4. What happens when the second number is zero, and why: The program displays a message indicating that division by zero is not allowed.
 
 
 # Your code below
@@ -42,17 +43,22 @@ sum = number_1 + number_2
 print("The sum of two numbers is:", sum)
 
 #difference of two numbers
-diff = number_2 - number_1
+diff = number_1 - number_2
 print("The difference of two numbers is: ", diff)
-
 
 #product of two numbers
 product= number_1 * number_2
 print("The product of two numbers is: ", product)
 
-#division of to numbers
+#division of two numbers
 if number_2 !=0:
     div = number_1 / number_2
     print("The division of two numbers is: ", div)
 else:
-    print("The second number is 0")
+    print("The second number is 0, division by zero is not allowed.")
+
+
+#CHECK IT YOURSELF
+# I ran the program with 7 and 2. The result of the division was 3.5, which is correct.
+# I ran the program with 0 as the second number. The program displayed the message 
+# "The second number is 0, division by zero is not allowed."
