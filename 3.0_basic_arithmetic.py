@@ -61,4 +61,4 @@ else:
 #CHECK IT YOURSELF
 # I ran the program with 7 and 2. The result of the division was 3.5, which is correct.
 # I ran the program with 0 as the second number. The program displayed the message 
-# "The second number is 0, division by zero is not allowed."
+#"The second number is 0, division by zero is not allowed."
