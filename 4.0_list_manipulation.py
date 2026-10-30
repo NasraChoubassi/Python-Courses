@@ -47,7 +47,7 @@ print(number_4)
 print(number_5)
 print(number_6)
 
-list [4, 5, 6, 7, 8, 9, 10, 11, 2, 1]
+list=[4, 5, 6, 7, 8, 9, 10, 11, 2, 1]
 
 print(list)
 print(list[3])
